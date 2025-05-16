@@ -43,6 +43,9 @@ jobs:
           cache: npm # or pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      - name: Install vitepress
+        run: npm install -g pnpm
+      
       - name: Install pnpm
         run: npm install -g pnpm
       - name: Install dependencies
