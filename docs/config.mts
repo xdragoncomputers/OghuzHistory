@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "OghuzHistory",
-  base: '/base/',
+  base: '/',
   description: "A Truth Site For Secular and Religious History of Oghuz",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
