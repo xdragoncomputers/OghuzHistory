@@ -10,6 +10,9 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
+    
+    base: '/your-base-path/',
+  
 
     sidebar: [
       {
